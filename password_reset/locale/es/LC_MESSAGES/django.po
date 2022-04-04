@@ -58,12 +58,12 @@ msgid ""
 "Your password has successfully been reset. You can use it right now on the "
 "login page."
 msgstr ""
-"Su clave ha sido restaurada. Puede utilizarla para ingresar al sistema "
+"Su clave ha sido restaurada. Puede utilizarla para acceder al sistema "
 
 #: templates/password_reset/recovery_email.txt:1
 #, python-format
 msgid "Dear %(username)s,"
-msgstr "Querido %(username)s,"
+msgstr "Estimado %(username)s,"
 
 #: templates/password_reset/recovery_email.txt:3
 #, python-format
@@ -71,7 +71,7 @@ msgid ""
 "You -- or someone pretending to be you -- has requested a password reset on "
 "%(domain)s."
 msgstr ""
-"Usted -- o alguien pretendiendo ser usted -- ha requerido un blanqueo de clave en "
+"Usted -- o alguien pretendiendo ser usted -- ha solicitado la recuperación de clave en "
 "%(domain)s."
 
 #: templates/password_reset/recovery_email.txt:5
@@ -83,7 +83,7 @@ msgid ""
 "If you don't want to reset your password, simply ignore this email and it "
 "will stay unchanged."
 msgstr ""
-"Si usted no ha requerido un cambio de clave, simplemente ignore este email y "
+"Si usted no ha solicitado un cambio de clave, simplemente ignore este email y "
 "no será actualizada."
 
 #: templates/password_reset/recovery_email_subject.txt:1
@@ -111,15 +111,15 @@ msgstr ""
 #: templates/password_reset/reset.html:7
 #, python-format
 msgid "Hi, <strong>%(username)s</strong>. Please choose your new password."
-msgstr "Hola, <string>%(username)s</strong>. Por favor ingrese su nueva clave."
+msgstr "Hola, <string>%(username)s</strong>. Por favor introduzca su nueva clave."
 
 #: templates/password_reset/reset.html:11
 msgid "Set new password"
-msgstr "Ingresar nueva clave"
+msgstr "Introducir nueva clave"
 
 #: templates/password_reset/reset_sent.html:4
 msgid "Password recovery sent"
-msgstr "Clave recuperada enviada"
+msgstr "Correo de recuperación enviado"
 
 #: templates/password_reset/reset_sent.html:7
 #, python-format
