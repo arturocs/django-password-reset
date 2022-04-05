@@ -79,13 +79,16 @@ class Recover(SaltMixin, generic.FormView):
     def get_site(self):
         return get_current_site(self.request)
 
+    def get_secure(self):
+        return self.request.is_secure()
+
     def send_notification(self):
         context = {
             'site': self.get_site(),
             'user': self.user,
             'username': self.user.get_username(),
             'token': signing.dumps(self.user.pk, salt=self.salt),
-            'secure': self.request.is_secure(),
+            'secure': self.get_secure(),
         }
         body = loader.render_to_string(self.email_template_name,
                                        context).strip()
