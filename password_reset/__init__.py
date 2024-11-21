@@ -1,1 +1,1 @@
-__version__ = '2.1.udo'
+__version__ = '3.0.0'
